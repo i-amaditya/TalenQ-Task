@@ -1,0 +1,30 @@
+.btn-primary {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  letter-spacing: 1px;
+  border-radius: 1rem;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--primary);
+}
+
+@media (min-width: 720px) {
+  .btn-primary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    letter-spacing: 1px;
+  }
+}
+
+.loading-text {
+  color: var(--primary);
+  text-align: center;
+  margin-top: 5rem;
+  letter-spacing: 1px;
+}

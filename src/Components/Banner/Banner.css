@@ -1,0 +1,47 @@
+.banners-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-top: 5rem;
+}
+.banner-card {
+  text-align: center;
+  width: 310px;
+  height: 200px;
+  padding: 2rem;
+  box-shadow: 0px 0px 10px 3px lightgray;
+  border-radius: 1rem;
+
+  background: linear-gradient(to right, #dbeafe, #fff);
+}
+.change-gradient {
+  background: linear-gradient(to right, #fff, #dbeafe);
+}
+.banner-card .banner-name {
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+  text-transform: capitalize;
+}
+
+.banner-card .banner-content {
+  color: var(--gray);
+  letter-spacing: 1px;
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 720px) {
+  .banner-card .banner-name {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+  }
+
+  .banner-card .banner-content {
+    color: var(--gray);
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+}
