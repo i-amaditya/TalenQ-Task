@@ -1,7 +1,7 @@
 <div align="center">
   
   
-# TalenQ Assignment
+# TalenQ Task
 </div>
 
 ## **Features -**
